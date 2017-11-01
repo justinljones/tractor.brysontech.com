@@ -33,4 +33,12 @@ class DefaultController extends Controller
     {
         return $this->render('Testimonials/testimonial.html.twig');
     }
+    
+    /**
+     * @Route("/Contact_Form", name="contact")
+     */
+    public function contactAction(Request $request)
+    {
+        return $this->render('Contact_Form/contact.html.twig');
+    }
 }
