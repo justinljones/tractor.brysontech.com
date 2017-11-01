@@ -24,5 +24,13 @@ class DefaultController extends Controller
     public function faqAction(Request $request)
     {
         return $this->render('FAQ/faq.html.twig');
-    }       
+    }
+    
+    /**
+     * @Route("/Testimonials", name="Testimonials")
+     */
+    public function testimonialAction(Request $request)
+    {
+        return $this->render('Testimonials/testimonial.html.twig');
+    }
 }
