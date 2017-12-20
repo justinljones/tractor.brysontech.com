@@ -1,7 +1,28 @@
 {% extends 'base.html.twig' %}
+
 {% block body %}
-    Hello
+    <div class="container-fluid">
+        <div class='text-center'>
+            <h1>ABOUT</h1>
+                <p>Hardworking Veteran</p>
+                <p>Longtime South Carolina Resident</p>
+        </div>
+        <div class="text-center">
+            <h1>ETHICS</h1>
+                <p>Reliability is Key</p>
+                <p>Honesty is Paramount</p>
+                <p>Respect is Earned</p>            
+        </div>
+        <div class="text-center">
+            <h1>GUARAUNTEES</h1>
+                <p>Finish the Job</p>
+                <p>Make Sure You Are Satisfied</p>
+                <p>Be Respectful of You <em>and</em> Your Property</p>                
+        </div>
     
-    {%endblock%}
+    
+    {% include 'footer.html.twig' %}
+    </div>
+{%endblock%}
 
 
